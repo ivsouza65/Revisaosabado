@@ -15,4 +15,5 @@ migrate = Migrate(app,db)
 #determinar o que vai ter no projeto
 from .models import uc_model
 from .views import uc_view
-
+from .views import curso_view
+from .views import aluno_view
